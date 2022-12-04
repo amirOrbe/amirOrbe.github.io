@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Amir Orbe</title>
+    <link>https://amirOrbe.github.io/post/</link>
+    <description>Recent content in Posts on Amir Orbe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2022, Amir Orbe Site</copyright>
+    <lastBuildDate>Tue, 23 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://amirOrbe.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backend Developer at Bunsan</title>
+      <link>https://amirOrbe.github.io/post/backend-developer/</link>
+      <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirOrbe.github.io/post/backend-developer/</guid>
+      <description>Role Overview: as a Backend Developer I participated in a big e-commerce company.
+The challenges in which I support: Resolving bugs of discount campaigns Adding telemetry for some metrics Migrating API&amp;rsquo;s from REST to GraphQL Implementation of a new type of discount Refactoring code Implementation for download dynamic excel generation files with a lot of information. Interesting challenges: The e-commerce project is really big, so I needed to study a lot of topics that I didn’t know.</description>
+    </item>
+    
+    <item>
+      <title>Elixir intern at Bunsan</title>
+      <link>https://amirOrbe.github.io/post/elixir-intern/</link>
+      <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirOrbe.github.io/post/elixir-intern/</guid>
+      <description>Role Overview: As Fullstack Developer I participed in a system for register the projects, skills, skill level, status, occupation time, level in each skill, areas, vacations and assignments of each employee.
+The challenges in which I support: Implementation of a new dynamic call to assign a call to employees once a month for interaction between them. Implementation of a new section in the application to generate dynamic reports by date to obtain a summary of each employee Implementation of a new section to assign the corresponding area to each employee Fixing logic bugs Migrating API&amp;rsquo;s from REST to Graphql Implementing a new tool to identify an employee using the phone camera Interesting challenges: The system was the first in which I contributed, so I needed to study new topics that I didn&amp;rsquo;t know before, for example:</description>
+    </item>
+    
+    <item>
+      <title>Medussa Studio</title>
+      <link>https://amirOrbe.github.io/post/medussa-studio/</link>
+      <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://amirOrbe.github.io/post/medussa-studio/</guid>
+      <description>This project arises from an idea I had when I saw how people still use paper to register appointments and usually do not keep track of it.
+So I decided to implement a system in which there are administrator users and clients. Clients can schedule a single new appointment or for several clients that require the use of a service by selecting the date in a calendar and after selecting the date you can also select a service that The company offers for a specific time and depending on the appointments you want to register you can select the service for each registration, the system will calculate the time that the service will last for each registration.</description>
+    </item>
+    
+  </channel>
+</rss>
