@@ -3,6 +3,8 @@ defmodule Site.Pages.CV do
     layout: Site.Layouts.Root,
     permalink: "/cv"
 
+  use Phoenix.Component
+
   def template(assigns) do
     ~H"""
     <main>
