@@ -1,8 +1,9 @@
 defmodule Site.Layouts.Root do
   use Tableau.Layout
+  use Phoenix.Component
 
   def template(assigns) do
-    """
+    ~H"""
     <!DOCTYPE html>
     <html lang="es">
       <head>
@@ -26,9 +27,9 @@ defmodule Site.Layouts.Root do
               <li><a href="/cv">CV</a></li>
             </ul>
           </nav>
-          #{assigns.inner_content}
+          <%= Tableau.Document.Helper.render(@inner_content) %>
           <footer class="footer">
-            <span class="footer-text">Amir Orbe &middot; CDMX</span>
+            <span class="footer-text">Amir Orbe · CDMX</span>
             <div class="footer-links">
               <a href="https://github.com/amirOrbe" target="_blank" rel="noopener">GitHub</a>
               <a href="https://twitter.com/amirOrbe" target="_blank" rel="noopener">Twitter</a>
