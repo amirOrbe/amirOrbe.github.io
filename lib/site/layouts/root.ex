@@ -1,7 +1,7 @@
 defmodule Site.Layouts.Root do
-  use Tableau.Layout, layout: :none
+  use Tableau.Layout
 
-  def template(assigns) do
+  def template(_assigns) do
     """
     <!DOCTYPE html>
     <html lang="es">
