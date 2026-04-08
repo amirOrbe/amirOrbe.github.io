@@ -3,10 +3,8 @@ defmodule Site.Pages.CV do
     layout: Site.Layouts.Root,
     permalink: "/cv"
 
-  use Phoenix.Component
-
-  def template(assigns) do
-    ~H"""
+  def template(_assigns) do
+    """
     <main>
       <div class="cv-header">
         <div class="cv-name">Amir Orbe</div>
