@@ -3,6 +3,8 @@ defmodule Site.Pages.DJ do
     layout: Site.Layouts.Root,
     permalink: "/dj"
 
+  use Phoenix.Component
+
   def template(assigns) do
     ~H"""
     <main>

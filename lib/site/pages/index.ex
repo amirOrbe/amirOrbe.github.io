@@ -3,6 +3,8 @@ defmodule Site.Pages.Index do
     layout: Site.Layouts.Root,
     permalink: "/"
 
+  use Phoenix.Component
+
   def template(assigns) do
     ~H"""
     <main>
