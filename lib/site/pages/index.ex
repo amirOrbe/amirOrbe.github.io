@@ -3,10 +3,8 @@ defmodule Site.Pages.Index do
     layout: Site.Layouts.Root,
     permalink: "/"
 
-  use Phoenix.Component
-
-  def template(assigns) do
-    ~H"""
+  def template(_assigns) do
+    """
     <main>
       <section class="hero">
         <span class="hero-tag">Backend Developer &middot; DJ</span>
