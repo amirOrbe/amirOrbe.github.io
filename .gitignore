@@ -1,0 +1,18 @@
+# Elixir / Mix
+_build/
+deps/
+*.ez
+.elixir_ls/
+.lexical/
+
+# Tableau output
+_site/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+*.swo
