@@ -3,10 +3,8 @@ defmodule Site.Pages.Projects do
     layout: Site.Layouts.Root,
     permalink: "/projects"
 
-  use Phoenix.Component
-
-  def template(assigns) do
-    ~H"""
+  def template(_assigns) do
+    """
     <main>
       <div class="page-header">
         <h1 class="page-title">Projects</h1>
