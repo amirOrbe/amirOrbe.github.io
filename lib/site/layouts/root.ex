@@ -1,7 +1,7 @@
 defmodule Site.Layouts.Root do
   use Tableau.Layout
 
-  def template(_assigns) do
+  def template(assigns) do
     """
     <!DOCTYPE html>
     <html lang="es">
@@ -26,7 +26,7 @@ defmodule Site.Layouts.Root do
               <li><a href="/cv">CV</a></li>
             </ul>
           </nav>
-          <%= @inner_content %>
+          #{assigns.inner_content}
           <footer class="footer">
             <span class="footer-text">Amir Orbe &middot; CDMX</span>
             <div class="footer-links">
