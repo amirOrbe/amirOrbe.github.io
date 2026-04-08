@@ -20,7 +20,8 @@ defmodule Site.MixProject do
   defp deps do
     [
       {:tableau, "~> 0.30"},
-      {:jason, "~> 1.4"}
+      {:jason, "~> 1.4"},
+      {:phoenix_live_view, "~> 1.0"}
     ]
   end
 end
