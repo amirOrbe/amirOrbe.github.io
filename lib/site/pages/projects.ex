@@ -35,6 +35,28 @@ defmodule Site.Pages.Projects do
 
       <div class="project-card">
         <div class="project-meta">
+          <span class="project-type">Web &middot; Health</span>
+        </div>
+        <div class="project-title">OtterHealth</div>
+        <p class="project-desc">
+          Landing page for a nutritionist to showcase her services and connect with new clients.
+          Covers consultation details &mdash; clinical history, nutritional plans, body composition
+          analysis, and follow-up tracking &mdash; with a clean profile section and appointment booking flow.
+        </p>
+        <div class="project-tags">
+          <span class="skill-tag">Phoenix</span>
+          <span class="skill-tag">Elixir</span>
+          <span class="skill-tag">Fly.io</span>
+        </div>
+        <div class="project-links">
+          <a href="https://otterhealth-new.fly.dev/" class="project-link" target="_blank" rel="noopener">
+            Visit site &rarr;
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-meta">
           <span class="project-type">Open Source</span>
         </div>
         <div class="project-title">amirorbe.github.io</div>
