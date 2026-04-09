@@ -26,6 +26,11 @@ defmodule Site.Pages.Projects do
           <span class="skill-tag">Design</span>
           <span class="skill-tag">Branding</span>
         </div>
+        <div class="project-links">
+          <a href="https://caferaicescultura.cafe" class="project-link" target="_blank" rel="noopener">
+            Visit site &rarr;
+          </a>
+        </div>
       </div>
 
       <div class="project-card">

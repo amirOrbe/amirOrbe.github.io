@@ -22,7 +22,7 @@ defmodule Site.Pages.DJ do
       <section class="section">
         <div class="section-label">Sets &amp; Mixes</div>
         <div class="post-list">
-          <a href="https://soundcloud.com/amirorbe" class="set-item" target="_blank" rel="noopener">
+          <a href="https://soundcloud.com/user-639125390" class="set-item" target="_blank" rel="noopener">
             <div>
               <div class="set-title">SoundCloud Profile</div>
               <div class="set-meta">All recorded sets and mixes</div>
