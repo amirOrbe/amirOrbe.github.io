@@ -13,6 +13,31 @@ defmodule Site.Pages.Projects do
 
       <div class="project-card">
         <div class="project-meta">
+          <span class="project-type">Web &middot; E-commerce</span>
+        </div>
+        <div class="project-title">El Buen Muchacho</div>
+        <p class="project-desc">
+          Online ordering platform for a food business in Mexico City. Customers can browse
+          the menu, add items to their cart, and place orders &mdash; all in real time.
+          Includes an admin panel for staff to manage incoming orders and a full
+          authentication system with user profiles.
+        </p>
+        <div class="project-tags">
+          <span class="skill-tag">Phoenix</span>
+          <span class="skill-tag">LiveView</span>
+          <span class="skill-tag">Elixir</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">Tailwind</span>
+        </div>
+        <div class="project-links">
+          <a href="https://elbuenmuchacho.com.mx/" class="project-link" target="_blank" rel="noopener">
+            Visit site &rarr;
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-meta">
           <span class="project-type">Web &middot; Design</span>
         </div>
         <div class="project-title">Caf&eacute; Ra&iacute;ces Cultura</div>
