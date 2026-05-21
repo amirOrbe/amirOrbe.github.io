@@ -38,18 +38,22 @@ defmodule Site.Pages.Projects do
 
       <div class="project-card">
         <div class="project-meta">
-          <span class="project-type">Web &middot; Design</span>
+          <span class="project-type">Web &middot; Restaurant ops</span>
         </div>
         <div class="project-title">Caf&eacute; Ra&iacute;ces Cultura</div>
         <p class="project-desc">
-          Digital presence for Caf&eacute; Ra&iacute;ces Cultura, a coffee space rooted in cultural
-          identity and community in Mexico City. Designed and developed with an emphasis
-          on atmosphere, brand expression, and local storytelling.
+          Full restaurant operations platform for a coffee space in Mexico City.
+          Waiters manage real-time orders; kitchen and bar each have their own live display
+          to mark items ready as they&rsquo;re prepared. The admin panel covers inventory,
+          recipes, suppliers, sales reporting, employee scheduling, and performance metrics.
+          Everything updates in real time via Phoenix PubSub &mdash; no page reloads.
         </p>
         <div class="project-tags">
-          <span class="skill-tag">Web</span>
-          <span class="skill-tag">Design</span>
-          <span class="skill-tag">Branding</span>
+          <span class="skill-tag">Phoenix</span>
+          <span class="skill-tag">LiveView</span>
+          <span class="skill-tag">Elixir</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">Tailwind</span>
         </div>
         <div class="project-links">
           <a href="https://caferaicescultura.cafe" class="project-link" target="_blank" rel="noopener">
